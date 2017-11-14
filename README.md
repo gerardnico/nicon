@@ -6,9 +6,16 @@ This repository contains icons that I craft and use in my articles.
 
 ## Philosophy
 
-  * Less is more
+  * Less visuals is more
   * No gradient
-  
+  * Bigger visual is better
+  * Always two colors
+
+## Color Palette
+
+  * dbb4a9ff
+  * bc8074ff
+
 ## List
   * Cash Register (Sales)
   
@@ -21,6 +28,10 @@ This repository contains icons that I craft and use in my articles.
   * Scale (Finance)
   
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/scale.svg?sanitize=true" alt="Scale Icon" height="128px" width="128px" >
+
+  * Warehouse
+  
+<img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/warehouse.svg?sanitize=true" alt="Warehouse Icon" height="128px" width="128px" >
 
 ## Tools
 The icons have been crafted with [Inkscape](https://inkscape.org/)
