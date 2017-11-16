@@ -65,6 +65,10 @@ Arrows (Optional Paths are dashed):
 
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/excel.svg?sanitize=true" alt="Excel 2013 Icon" height="128px" width="128px" >
 
+  * [Octicons Gear](https://commons.wikimedia.org/wiki/File:Octicons-gear.svg) released under MIT/SIL license
+
+<img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/gear.svg?sanitize=true" alt="Octicons Gear" height="128px" width="128px" >
+
 ## Tools
 The icons have been crafted with [Inkscape](https://inkscape.org/)
 
