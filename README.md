@@ -49,6 +49,16 @@ Arrows (Optional Paths are dashed):
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/report.svg?sanitize=true" alt="Analytics Report Icon" height="128px" width="128px" >
 
 
+  * Database 
+  
+<img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/database.svg?sanitize=true" alt="Database Icon" height="128px" width="128px" >
+
+
+  * File
+  
+<img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/file.svg?sanitize=true" alt="File Icon" height="128px" width="128px" >
+
+
 ## Third party icon
 
   * Excel 2013. This icon was adapted from the [Microsoft Excel 2013 logo file of Wikipedia](https://commons.wikimedia.org/wiki/File:Microsoft_Excel_2013_logo.svg) and is in the public domain.
