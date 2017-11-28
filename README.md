@@ -58,6 +58,10 @@ Arrows (Optional Paths are dashed):
   
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/file.svg?sanitize=true" alt="File Icon" height="128px" width="128px" >
 
+  * Bread 
+  
+<img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/bread.svg?sanitize=true" alt="Bread Icon (from the front)" height="128px" width="128px" >
+
 
 ## Third party icon
 
