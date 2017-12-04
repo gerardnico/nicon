@@ -1,7 +1,7 @@
 # Icons
 
 ## Introduction
-This repository contains icons that I craft and use in my articles.
+This repository contains icons and drawing that I craft and use in my articles.
 
 
 ## Philosophy
