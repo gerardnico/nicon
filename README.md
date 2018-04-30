@@ -48,11 +48,9 @@ Arrows (Optional Paths are dashed):
   
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/report.svg?sanitize=true" alt="Analytics Report Icon" height="128px" width="128px" >
 
-
   * Database 
   
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/database.svg?sanitize=true" alt="Database Icon" height="128px" width="128px" >
-
 
   * File
   
@@ -61,6 +59,10 @@ Arrows (Optional Paths are dashed):
   * Bread 
   
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/bread.svg?sanitize=true" alt="Bread Icon (from the front)" height="128px" width="128px" >
+
+  * Open folder
+  
+<img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/folder_open.svg?sanitize=true" alt="Open folder" height="128px" width="128px" >
 
 
 ## Third party icon
