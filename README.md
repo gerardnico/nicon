@@ -76,6 +76,7 @@ Arrows (Optional Paths are dashed):
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/gear.svg?sanitize=true" alt="Octicons Gear" height="128px" width="128px" >
 
 ## Tools
+
 The icons have been crafted with [Inkscape](https://inkscape.org/)
 
 ## Licence
@@ -84,3 +85,7 @@ Otherwise noted, the icons are licensed under the <a rel="license" href="http://
 https://commons.wikimedia.org/wiki/Commons:Threshold_of_originality).
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+
+## Link
+  
+  * [Rstudio Stickers]()https://github.com/rstudio/hex-stickers) 
