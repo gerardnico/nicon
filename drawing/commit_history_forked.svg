@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 566.78662 366.24167"
+   version="1.1"
+   id="svg3749"
+   sodipodi:docname="commit_history_forked.svg"
+   width="566.78662"
+   height="366.24167"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <title
+     id="title4648">Forked Commit History</title>
+  <metadata
+     id="metadata3755">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Forked Commit History</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>https://creativecommons.org/licenses/by-nc-sa/4.0/</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>https://gerardnico.com/nicon</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:description>A forked commit history in a version control system (normally git)</dc:description>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>With an original idea from https://www.atlassian.com/git/tutorials/merging-vs-rebasing</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3753" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     id="namedview3751"
+     showgrid="false"
+     inkscape:zoom="1.6643256"
+     inkscape:cx="255.8676"
+     inkscape:cy="94.901004"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3749"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10" />
+  <style
+     id="style3713">.st8{fill:#fff;stroke:#404040;stroke-width:4;stroke-miterlimit:10}.st9{fill:#404040}.st11{stroke-linecap:round;stroke-linejoin:round}.st11,.st14,.st15,.st16{fill:none;stroke:#404040;stroke-width:4;stroke-miterlimit:10}.st15,.st16{fill:#4ed1a1}.st16{fill:#b3e3ff;stroke-linejoin:round}</style>
+  <path
+     class="st14"
+     d="m 235.26369,212.69005 c 0,22.6 -18.4,41 -41,41 m 41,-41 c 0,-22.6 18.4,-41 41,-41 h 215.1"
+     id="path3717"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#5a4654;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     class="st15"
+     cx="319.6637"
+     cy="171.69005"
+     r="21"
+     id="circle3719"
+     style="fill:#dbb4a9;fill-opacity:1;stroke:#dbb4a9;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     class="st15"
+     cx="415.96368"
+     cy="171.69005"
+     r="21"
+     id="circle3721"
+     style="fill:#dbb4a9;fill-opacity:1;stroke:#dbb4a9;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     class="st15"
+     cx="512.1637"
+     cy="171.69005"
+     r="21"
+     id="circle3723"
+     style="fill:#dbb4a9;fill-opacity:1;stroke:#dbb4a9;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="st14"
+     d="M 24.263687,253.69005 H 194.26369"
+     id="path3725"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#5a4654;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     class="st8"
+     cx="45.263687"
+     cy="253.69005"
+     r="21"
+     id="circle3727"
+     style="fill:#ffffff;stroke:#bc8074;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     class="st8"
+     cx="141.26369"
+     cy="253.69005"
+     r="21"
+     id="circle3729"
+     style="fill:#ffffff;stroke:#bc8074;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="st14"
+     d="m 177.56369,253.69005 h 216.1"
+     id="path3731"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#5a4654;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     cx="318.6637"
+     cy="253.69005"
+     r="21"
+     stroke-miterlimit="10"
+     id="circle3733"
+     style="fill:#bc8074;fill-opacity:1;stroke:#bc8074;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  <circle
+     class="st16"
+     cx="414.6637"
+     cy="253.69005"
+     r="21"
+     id="circle3735"
+     style="fill:#bc8074;fill-opacity:1;stroke:#bc8074;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="st11"
+     d="m 512.16369,126.49005 v -23.5 m 10.9,14.8 -10.9,10.9 -10.8,-10.9"
+     id="path3741"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#dbb4a9;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1" />
+  <path
+     class="st11"
+     d="m 414.66369,299.09005 v 23.5 m -10.9,-14.8 10.9,-10.8 10.9,10.8"
+     id="path3747"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#bc8074;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#5a4654;fill-opacity:1;stroke:none"
+     x="6.875"
+     y="34.3125"
+     id="text3759"><tspan
+       sodipodi:role="line"
+       id="tspan3757"
+       x="6.875"
+       y="34.3125"
+       style="font-size:32px;fill:#5a4654;fill-opacity:1">Forked Commit History</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#bc8074;fill-opacity:1;stroke:none"
+     x="373.04913"
+     y="355.91876"
+     id="text4568-8"><tspan
+       sodipodi:role="line"
+       id="tspan4566-1"
+       x="373.04913"
+       y="355.91876"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#bc8074;fill-opacity:1">Master</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#dbb4a9;fill-opacity:1;stroke:none"
+     x="465.66162"
+     y="89.088387"
+     id="text4568-8-9"><tspan
+       sodipodi:role="line"
+       id="tspan4566-1-6"
+       x="465.66162"
+       y="89.088387"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#dbb4a9;fill-opacity:1">Feature</tspan></text>
+</svg>

@@ -26,6 +26,13 @@ Arrows (Optional Paths are dashed):
   * Failure Path: d24642ff (Red)
   * Success Path Path: 4a795fff (Green)
 
+## Metadata
+The metadata of each original svg contains:
+  * Description
+  * Title
+  * Rights: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  * Publisher: https://gerardnico.com/nicon
+  * License: CC Attribution-NonCommercial-ShareAlike
 
 ## List
   * Cash Register (Sales)
