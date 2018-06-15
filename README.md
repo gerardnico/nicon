@@ -71,6 +71,10 @@ The metadata of each original svg contains:
   
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/folder_open.svg?sanitize=true" alt="Open folder" height="128px" width="128px" >
 
+* Home
+  
+<img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/home.svg?sanitize=true" alt="Home" height="128px" width="128px" >
+
 
 ## Third party icon
 

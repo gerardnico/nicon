@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Home"
+   x="0px"
+   y="0px"
+   viewBox="0 0 20 20"
+   enable-background="new 0 0 20 20"
+   xml:space="preserve"
+   sodipodi:docname="home.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><title
+   id="title1389">Home</title><metadata
+   id="metadata9"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>Home</dc:title><dc:rights><cc:Agent><dc:title>https://creativecommons.org/licenses/by-nc-sa/4.0/</dc:title></cc:Agent></dc:rights><dc:creator><cc:Agent><dc:title>Nicolas GERARD</dc:title></cc:Agent></dc:creator><dc:publisher><cc:Agent><dc:title>https://gerardnico.com/nicon</dc:title></cc:Agent></dc:publisher><dc:description>An home</dc:description><cc:license
+         rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" /></cc:Work><cc:License
+       rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/"><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:requires
+         rdf:resource="http://creativecommons.org/ns#Notice" /><cc:requires
+         rdf:resource="http://creativecommons.org/ns#Attribution" /><cc:prohibits
+         rdf:resource="http://creativecommons.org/ns#CommercialUse" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#DerivativeWorks" /><cc:requires
+         rdf:resource="http://creativecommons.org/ns#ShareAlike" /></cc:License></rdf:RDF></metadata><defs
+   id="defs7" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="2400"
+   inkscape:window-height="1271"
+   id="namedview5"
+   showgrid="false"
+   inkscape:zoom="22.627417"
+   inkscape:cx="17.866407"
+   inkscape:cy="7.9680708"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Home" />
+<path
+   d="M 18.672,9.75 H 15.633436 V 17 c 0,0.445 -0.194,1 -1,1 H 5.3665632 c -0.806,0 -0.9673112,-0.556203 -1,-1 V 9.75 H 1.328 C 2.8908775,8.1871225 7.2050697,3.7198429 9.292,1.6329126 c 0.195,-0.202 0.451,-0.302 0.708,-0.312 0.257,0.01 0.513,0.109 0.708,0.312 C 12.860128,3.7850402 17.257686,8.335686 18.672,9.75 Z"
+   id="path2"
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="ccsccscccccc"
+   style="fill:#bc8074;fill-opacity:1" />
+</svg>
