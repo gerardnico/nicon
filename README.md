@@ -86,6 +86,14 @@ The metadata of each original svg contains:
 
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/gear.svg?sanitize=true" alt="Octicons Gear" height="128px" width="128px" >
 
+## Emoticon in Markdown
+
+  * :point_right: 
+  * :white_check_mark:
+  * :muscle: 
+  * :tada:
+  * :speak_no_evil:
+
 ## Tools
 
 The icons have been crafted with [Inkscape](https://inkscape.org/)
