@@ -86,13 +86,16 @@ The metadata of each original svg contains:
 
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/gear.svg?sanitize=true" alt="Octicons Gear" height="128px" width="128px" >
 
-## Emoticon in Markdown
+## Emoji
+
+They can be used in Markdown
 
   * :point_right: 
   * :white_check_mark:
   * :muscle: 
   * :tada:
   * :speak_no_evil:
+  * :robot_face:
 
 ## Tools
 
