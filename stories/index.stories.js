@@ -1,5 +1,5 @@
 export default {
-  title: 'Demo',
+  title: 'ZDemo',
 };
 
 export const Heading = () => '<h1>Hello World</h1>';

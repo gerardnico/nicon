@@ -17,7 +17,8 @@
     "paths.macro": "^2.0.2"
   },
   "scripts": {
-    "storybook": "start-storybook -p 6006 -s ./images",
+    "start": "yarn storybook",
+    "storybook": "start-storybook -p 6006 -s ./gallery",
     "build-storybook": "build-storybook",
     "test": "jest"
   }

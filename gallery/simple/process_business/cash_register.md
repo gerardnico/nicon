@@ -4,3 +4,4 @@
 
 This icon is perfect to illustrate a sales process.
 
+

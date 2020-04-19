@@ -12,6 +12,6 @@
 export function toStoryHierarchy(base, filename) {
     base = base.substring("/stories/".length,base.length);
     filename = filename.substr(0, filename.indexOf("."));
-    return base + filename;
+    return (base + filename).replace("_"," ");
 }
 
