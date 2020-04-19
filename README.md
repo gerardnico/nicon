@@ -129,3 +129,11 @@ yarn add babel-loader @babel/core --dev
 yarn add paths.macro
 yarn add babel-plugin-macros
 ```
+  * Test
+```bash
+yarn add --dev jest
+```
+  * Es 2017
+```bash
+yarn add @babel/preset-es2017 --dev
+```

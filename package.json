@@ -8,13 +8,16 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
     "@storybook/html": "^5.3.18",
     "babel-loader": "^8.1.0",
     "babel-plugin-macros": "^2.8.0",
+    "jest": "^25.3.0",
     "paths.macro": "^2.0.2"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006 -s ./images",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest"
   }
 }

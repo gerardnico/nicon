@@ -1,5 +1,17 @@
 {
     "plugins": [
         "macros"
+    ],
+    // To be able to use import 
+    // https://babeljs.io/docs/en/babel-preset-env#targetsesmodules
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "esmodules": true
+                }
+            }
+        ]
     ]
 }
