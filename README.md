@@ -27,6 +27,7 @@ Arrows (Optional Paths are dashed):
   * Success Path Path: 4a795fff (Green)
 
 ## Metadata
+
 The metadata of each original svg contains:
   * Description
   * Title
@@ -34,7 +35,9 @@ The metadata of each original svg contains:
   * Publisher: https://gerardnico.com/nicon
   * License: CC Attribution-NonCommercial-ShareAlike
 
+
 ## List
+
   * Cash Register (Sales)
   
 <img src="https://raw.githubusercontent.com/gerardnico/icon/master/icons/cash_register.svg?sanitize=true" alt="Cash Register Icon" height="128px" width="128px" >
@@ -111,3 +114,18 @@ https://commons.wikimedia.org/wiki/Commons:Threshold_of_originality).
 ## Link
   
   * [Rstudio Stickers]()https://github.com/rstudio/hex-stickers) 
+
+## Ref
+
+  * [Storybook installation](https://storybook.js.org/docs/guides/guide-html/)
+
+```bash
+npx -p @storybook/cli sb init --type html
+yarn add @storybook/html --dev
+yarn add babel-loader @babel/core --dev
+```
+  * [Paths Bable Macro](https://github.com/storybookjs/paths.macro) used for [Automatic Nesting](https://storybook.js.org/docs/basics/writing-stories/#generating-nesting-path-based-on-__dirname)
+```bash 
+yarn add paths.macro
+yarn add babel-plugin-macros
+```
