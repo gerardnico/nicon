@@ -137,3 +137,7 @@ yarn add --dev jest
 ```bash
 yarn add @babel/preset-es2017 --dev
 ```
+  * Notes Addon to add documentation [Doc](https://github.com/storybookjs/storybook/tree/master/addons/notes)
+```bash
+yarn add -D @storybook/addon-notes
+```

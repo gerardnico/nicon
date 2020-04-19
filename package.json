@@ -9,6 +9,7 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
+    "@storybook/addon-notes": "^5.3.18",
     "@storybook/html": "^5.3.18",
     "babel-loader": "^8.1.0",
     "babel-plugin-macros": "^2.8.0",
