@@ -1,7 +1,7 @@
 # Gallery of Visuals (Icons, Illustration, ...)
 
 ```bash
-n + icon = nicon
+n(ico) + icon = nicon
 ```
 
 ## Introduction
