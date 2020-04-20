@@ -1,4 +1,8 @@
-# Gallery of Visuals (Icons, Illusatration, ...)
+# Gallery of Visuals (Icons, Illustration, ...)
+
+```bash
+n + icon = nicon
+```
 
 ## Introduction
 
@@ -7,9 +11,7 @@ This repository contains visuals:
   * composite (composed of simple visual) such as illustration
   * and photos
 
-```bash
-n + icon = nicon
-```
+
 
 That are organized in a [StoryBook](https://storybook.js.org/) and published on the [web](https://gerardnico.com/doc/gallery/)
 where they can be searched.
@@ -29,7 +31,7 @@ then you can develop your gallery:
 
   * Add your images in the [gallery folder](./gallery/).
   * [Optional] Add a markdown file with the same name than your image for documentation
-  * Generate the stories
+  * Generate the StoryBook stories in the [stories folder](./stories/)
 
 ```bash
 yarn generate
@@ -53,6 +55,11 @@ yarn build
 
   * Transfer the [storybook-static directory](./storybook-static) on your web server. Example: [https://gerardnico.com/doc/gallery/](https://gerardnico.com/doc/gallery/)
 
+## Rules
+
+  * You can add `README.md` files in the [gallery](./gallery/)
+  * You can add a markdown documentation file next to the image with the same name. ie if the image is `red.png`, the markdown should be named `red.md`.
+  * Every directory in the [gallery](./gallery/) with a file will create a [story](./stories/)
 
 ## Licence
 
