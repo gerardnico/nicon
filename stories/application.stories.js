@@ -1,8 +1,7 @@
-import { base, filename } from 'paths.macro';
-import { toStoryHierarchy } from '../src/lib/story';
+
 
 export default {
-  title: toStoryHierarchy(base,filename)
+  title: 'application'
 };
 
 import markdown from '../gallery/simple/application/excel.md';

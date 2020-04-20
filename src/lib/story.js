@@ -1,6 +1,7 @@
-import fs from 'fs';
-import pathapi from 'path';
-import os from 'os';
+/**
+ * A file with function that can be used in story
+ * because there is no node library imported
+ */
 
 /**
  * Take a path from a stories and return a path
@@ -33,42 +34,4 @@ export function toStoryHierarchy(dirName, fileName) {
 
 }
 
-
-/**
- * Return a javascript storybook stories based on a
- * traversal of the gallery
- * @param dir - a directory where the images are stored
- */
-export function generate(dir) {
-    let title = toStoryHierarchy(dir)
-    let script =
-        `import { base, filename } from 'paths.macro';
-
-export default {
-    title: "${title}"
-};
-
-`
-    let stories = '';
-    let dirEntries = fs.readdirSync(dir, {
-        encoding: 'utf8',
-        withFileTypes: true
-    });
-    for (let e of dirEntries) {
-        if (e.isFile()) {
-            let extName = pathapi.extname(e.name);
-            let baseName = pathapi.basename(e.name);
-            let storyName = pathapi.basename(e.name, extName);
-
-            if (extName != ".md") {
-                stories = stories + `export const ${storyName} = () => '<img src="${dir}${baseName}" alt="${storyName.replace("_", " ")}" >";\n`;
-            }
-
-        }
-    }
-
-    script = script + stories;
-    return script;
-
-}
 

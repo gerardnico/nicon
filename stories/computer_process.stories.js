@@ -1,8 +1,5 @@
-import { base, filename } from 'paths.macro';
-import { toStoryHierarchy } from '../src/lib/story';
-
 export default {
-  title: toStoryHierarchy(base,filename)
+  title: 'computer process'
 };
 
 import gearMd from '../gallery/simple/process_computer/gear.md';

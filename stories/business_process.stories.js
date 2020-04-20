@@ -1,8 +1,6 @@
-import { base, filename } from 'paths.macro';
-import { toStoryHierarchy } from '../src/lib/story';
 
 export default {
-  title: toStoryHierarchy(base,filename)
+  title: 'business Process'
 };
 
 import cashRegisterMd from '../gallery/simple/process_business/cash_register.md';
