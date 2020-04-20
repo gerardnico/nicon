@@ -11,6 +11,11 @@ test('toStoryHiearchy: example with a literal path (given)', () => {
     expect(toStoryHierarchy('stories/sales/', 'icons.stories.js')).toBe('sales/icons');
 });
 
+test('toStoryHiearchy: example with a windows path (given)', () => {
+    // manual real path
+    expect(toStoryHierarchy('stories\\sales\\')).toBe('sales');
+});
+
 test('toStoryHiearchy: example with only a directory path', () => {
     // manual real path
     expect(toStoryHierarchy('stories/sales_process/')).toBe('sales process');

@@ -13,7 +13,10 @@
  * @param {String} dirName - the relative directory path with an ending slash (no starting slash)
  * @param {String} fileName - the file name of the stories (optional) - if called from a story
  */
-export function toStoryHierarchy(dirName, fileName) {
+module.exports.toStoryHierarchy = function toStoryHierarchy(dirName, fileName) {
+
+    // Windows path
+    dirName = dirName.replace(/\\/mg,"/");
 
     // Delete the first directory (the gallery)
     // Delete the first slash
@@ -24,12 +27,14 @@ export function toStoryHierarchy(dirName, fileName) {
     // Return
 
     if (typeof fileName === 'undefined') {
-        return dirName
-            .replace("_", " ") // replace the _
-            .substr(0, dirName.length - 1); // suppress the last /
+        dirName = dirName .replace(/_/mg, " "); // replace the _
+        if (dirName.substr(dirName.length-1) == "/"){
+            dirName = dirName.substr(0, dirName.length-1); // suppress the last /
+        }
+        return dirName;
     } else {
         fileName = fileName.substr(0, fileName.indexOf("."));
-        return (dirName + fileName).replace("_", " ");
+        return (dirName + fileName).replace(/_/mg, " ");
     }
 
 }
