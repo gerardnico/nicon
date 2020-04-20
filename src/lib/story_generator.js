@@ -13,8 +13,20 @@ let story = require('./story');
  * Return a javascript storybook stories based on a
  * traversal of the gallery
  * @param dir - a directory where the images are stored
+ * @param galleryUrl - the http home path - set only when building normally
+ *    example if the file are 
+ *        * in a github account named `gerardnico`
+ *        * in a repository name `nicon`
+ *        * in a directory named `gallery`
+ * Then the web home would be https://raw.githubusercontent.com/gerardnico/nicon/master/gallery/
+ * 
  */
-let generateStoryScript = function generateStoryScript(dir) {
+let generateStoryScript = function generateStoryScript(dir, galleryUrl) {
+
+    if (typeof galleryUrl === 'undefined'){
+        throw new Error("Gallery Url is undefined")
+    }
+
     let title = story.toStoryHierarchy(dir)
     let script =
         `export default {
@@ -59,7 +71,7 @@ let generateStoryScript = function generateStoryScript(dir) {
 
             // Process the file
             if (extName != ".md") {
-                stories = stories + `export const ${storyName} = () => '<img src="${httpDir}/${baseName}" alt="${storyDescription}" >';\n`;
+                stories = stories + `export const ${storyName} = () => '<img src="${galleryUrl}${httpDir}/${baseName}" alt="${storyDescription}" >';\n`;
             } else {
                 if (baseName.toLowerCase() != 'README.md'.toLowerCase()) {
                     markdown = `import markdown_${storyName} from '../${fsDir}/${baseName}';\n`;
@@ -85,7 +97,7 @@ let generateStoryScript = function generateStoryScript(dir) {
  * 
  * @param {*} dir - the directory where the gallery is
  */
-module.exports.traverseGallery = function traverseGallery(dir) {
+module.exports.traverseGallery = function traverseGallery(dir, galleryUrl) {
     try {
 
         const isDirectory = source => fs.lstatSync(source).isDirectory();
@@ -93,7 +105,7 @@ module.exports.traverseGallery = function traverseGallery(dir) {
             throw new Error(dir + " is not a directory");
         }
         if (getFiles(dir).length > 0) {
-            let script = generateStoryScript(dir);
+            let script = generateStoryScript(dir, galleryUrl);
             let baseName = path.basename(dir);
             let scriptFileName = 'stories/' + baseName + '.stories.js';
             fs.writeFile(scriptFileName, script, (err) => {
@@ -102,7 +114,7 @@ module.exports.traverseGallery = function traverseGallery(dir) {
             });
         }
         for (let f of getDirectories(dir)) {
-            traverseGallery(f);
+            traverseGallery(f, galleryUrl);
         }
     } catch (err) {
         throw new Error(err);

@@ -13,14 +13,16 @@
     "@storybook/html": "^5.3.18",
     "babel-loader": "^8.1.0",
     "babel-plugin-macros": "^2.8.0",
+    "cross-env": "^7.0.2",
     "jest": "^25.3.0",
     "paths.macro": "^2.0.2"
   },
   "scripts": {
     "start": "yarn storybook",
     "storybook": "start-storybook -p 6006 -s ./gallery",
-    "build-storybook": "build-storybook",
+    "generate": "node ./bin/generate_stories.js",
+    "build": "cross-env NODE_ENV=production yarn generate && build-storybook && yarn generate",
     "test": "jest",
-    "test-dev": "jest --watch"
+    "test-watch": "jest --watch"
   }
 }

@@ -11,6 +11,49 @@ This repository contains visuals:
 n + icon = nicon
 ```
 
+That are organized in a [StoryBook](https://storybook.js.org/) and published on the [web](https://gerardnico.com/doc/gallery/)
+where they can be searched.
+
+The result can be seen at [https://gerardnico.com/doc/gallery/](https://gerardnico.com/doc/gallery/)
+
+
+## Usage
+
+To develop your own gallery, you need to (only once):
+
+  * Copy this repo
+  * Delete the content of the [gallery folder](./gallery/)
+  * Delete the content of the [stories folder](./stories/)
+
+then you can develop your gallery:
+
+  * Add your images in the [gallery folder](./gallery/).
+  * [Optional] Add a markdown file with the same name than your image for documentation
+  * Generate the stories
+
+```bash
+yarn generate
+```
+
+  * Start storybook to verify
+
+```bash
+yarn start
+```
+
+  * Build. The build:
+     * takes the Gallery Url given in the [.env.production](.env.production) file
+     * generate the story with it
+     * generate the static storybook
+     * re-generate the stories with no Gallery Url as set in the [.env](.env) file
+
+```bash
+yarn build
+```
+
+  * Transfer the [storybook-static directory](./storybook-static) on your web server. Example: [https://gerardnico.com/doc/gallery/](https://gerardnico.com/doc/gallery/)
+
+
 ## Licence
 
 The metadata of each original svg (ie made by me) contains:
