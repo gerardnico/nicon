@@ -60,6 +60,7 @@ yarn build
   * You can add `README.md` files in the [gallery](./gallery/)
   * You can add a markdown documentation file next to the image with the same name. ie if the image is `red.png`, the markdown should be named `red.md`.
   * Every directory in the [gallery](./gallery/) with a file will create a [story](./stories/)
+  * Every story name start with the suffix `story` to avoid conflict name with Javascript. Example: a india flag called `in.png` would have created a story with the name `in` that is a reserved javascript word.
 
 ## Licence
 
