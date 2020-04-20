@@ -20,6 +20,7 @@
     "start": "yarn storybook",
     "storybook": "start-storybook -p 6006 -s ./gallery",
     "build-storybook": "build-storybook",
-    "test": "jest"
+    "test": "jest",
+    "test-dev": "jest --watch"
   }
 }
