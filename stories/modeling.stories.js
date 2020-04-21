@@ -3,3 +3,5 @@ export default {
 };
 
 export const story_api = () => '<img src="simple/modeling/api.jpg" alt="api" >';
+story_api.story = {"name":"api"};
+

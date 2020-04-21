@@ -23,7 +23,7 @@ let story = require('./story');
  */
 let generateStoryScript = function generateStoryScript(dir, galleryUrl) {
 
-    if (typeof galleryUrl === 'undefined'){
+    if (typeof galleryUrl === 'undefined') {
         throw new Error("Gallery Url is undefined")
     }
 
@@ -47,45 +47,68 @@ let generateStoryScript = function generateStoryScript(dir, galleryUrl) {
     let httpDir = fsDir.substring(fsDir.indexOf("/") + 1, fsDir.length);
 
     // Variable
-    let markdown = '';
-    let previousStoryName = '';
+    let markdown_import = '';
+    let markdown_name = '';
+
+    // The variable name
+    let storyId = '';
+    let previousStoryId = '';
+    // The storybook properties
+    let storyProperties = {};
+
+    // Loop
     for (let e of dirEntries) {
         if (e.isFile()) {
             let extName = path.extname(e.name);
             let baseName = path.basename(e.name);
+            if (baseName.toLowerCase() == 'README.md'.toLowerCase()) {
+                continue;
+            }
             let storyBaseName = path.basename(e.name, extName)
                 .replace(/-/mg, "_");
-            let storyName = 'story_' + storyBaseName; // To avoid a file called `in` for India - in is a reserved javascript word
-            let storyDescription = storyBaseName.replace(/_/mg, " ");
+            let storyId = 'story_' + storyBaseName; // To avoid a file called `in` for India - in is a reserved javascript word            
 
             // New Story
-            // Closing the story code
-            if (storyName != previousStoryName && previousStoryName != '') {
+            if (previousStoryId != '' && previousStoryId != storyId) {
+
+                // Build the stories properties
                 // Markdown code should come at the end of a story
-                if (markdown != '') {
-                    stories += markdown;
-                    markdown = '';
+                if (markdown_name != '') {
+                    stories += markdown_import;
+                    storyProperties.parameters = {};
+                    storyProperties.parameters.notes = `{ ${markdown_name} }`;
+
+                    // Reset variable
+                    markdown_name = '';
+                    markdown_import = '';
                 }
+
+                stories += `${previousStoryId}.story = ${JSON.stringify(storyProperties)};\n`
                 stories += `\n`;
+
+                // Reset Properties
+                storyProperties = {};
             }
+
+            // Story Description is after the properties of the previous story
+            storyProperties.name = storyBaseName.replace(/_/mg, " ");
 
             // Process the file
             if (extName != ".md") {
-                stories = stories + `export const ${storyName} = () => '<img src="${galleryUrl}${httpDir}/${baseName}" alt="${storyDescription}" >';\n`;
+                stories = stories + `export const ${storyId} = () => '<img src="${galleryUrl}${httpDir}/${baseName}" alt="${storyProperties.name}" >';\n`;
             } else {
-                if (baseName.toLowerCase() != 'README.md'.toLowerCase()) {
-                    markdown = `import markdown_${storyName} from '../${fsDir}/${baseName}';\n`;
-                    markdown += `${storyName}.story = {
-  name: "${storyDescription}",
-  parameters: {
-    notes: { markdown_${storyName} }
-  }
-};\n`
-                }
+                markdown_name = `markdown_${storyId}`;
+                markdown_import = `import ${markdown_name} from '../${fsDir}/${baseName}';\n`;
             }
-            previousStoryName = storyName;
+            previousStoryId = storyId;
         }
     }
+
+    // Cloture the last story
+    if (storyProperties != {}) {
+        stories += `${previousStoryId}.story = ${JSON.stringify(storyProperties)};\n`
+    }
+    stories += `\n`;
 
     script = script + stories;
     return script;
