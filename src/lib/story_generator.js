@@ -75,15 +75,14 @@ let generateStoryScript = function generateStoryScript(dir, galleryUrl) {
                 // Markdown code should come at the end of a story
                 if (markdown_name != '') {
                     stories += markdown_import;
-                    storyProperties.parameters = {};
-                    storyProperties.parameters.notes = `{ ${markdown_name} }`;
+                    storyProperties.markdown_name = markdown_name;
 
                     // Reset variable
                     markdown_name = '';
                     markdown_import = '';
                 }
 
-                stories += `${previousStoryId}.story = ${JSON.stringify(storyProperties)};\n`
+                stories += `${previousStoryId}.story = ${stringify(storyProperties)};\n`
                 stories += `\n`;
 
                 // Reset Properties
@@ -106,7 +105,7 @@ let generateStoryScript = function generateStoryScript(dir, galleryUrl) {
 
     // Cloture the last story
     if (storyProperties != {}) {
-        stories += `${previousStoryId}.story = ${JSON.stringify(storyProperties)};\n`
+        stories += `${previousStoryId}.story = ${stringify(storyProperties)};\n`
     }
     stories += `\n`;
 
@@ -115,6 +114,20 @@ let generateStoryScript = function generateStoryScript(dir, galleryUrl) {
 
 }
 
+stringify = function stringify(storyProperties) {
+    let stringProperties = `{
+        "name": "${storyProperties.name}"`;
+    if (typeof storyProperties.markdown_name === 'undefined') {
+        stringProperties += `\n}`;
+    } else {
+        stringProperties += `,
+        "parameters": {
+            "notes": { ${ storyProperties.markdown_name} }
+        }
+    }`;
+    }
+    return stringProperties;
+}
 
 /**
  * 

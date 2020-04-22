@@ -3,5 +3,7 @@ export default {
 };
 
 export const story_bank = () => '<img src="simple/business/bank.svg" alt="bank" >';
-story_bank.story = {"name":"bank"};
+story_bank.story = {
+        "name": "bank"
+};
 
