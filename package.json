@@ -19,7 +19,7 @@
   },
   "scripts": {
     "dev": "yarn storybook",
-    "storybook": "start-storybook -p 6006 -s ./gallery",
+    "start": "start-storybook -p 6006 -s ./gallery",
     "generate": "node ./bin/generate_stories.js",
     "build": "cross-env NODE_ENV=production yarn generate && build-storybook && yarn generate",
     "test": "jest",
